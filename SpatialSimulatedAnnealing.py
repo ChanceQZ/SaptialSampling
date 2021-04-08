@@ -113,7 +113,7 @@ class SpatialSimulatedAnnealing:
 
 
 if __name__ == "__main__":
-    pnts_path = "点集/all_pt.shp"
+    pnts_path = "points/all_pt.shp"
     pnts_shp = shapefile.Reader(pnts_path)
     pnts = [pnt.points[0] for pnt in pnts_shp.shapes()]
 
